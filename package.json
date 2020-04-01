@@ -19,7 +19,8 @@
     "husky": "^4.2.3",
     "lint-staged": "^10.1.1",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^2.0.2"
+    "prettier": "^2.0.2",
+    "prop-types": "^15.7.2"
   },
   "lint-staged": {
     "*.js": [
