@@ -12,8 +12,10 @@ require("dotenv").config();
 
 const Twitter = require("twitter-lite");
 const Koa = require("koa");
+const cors = require("@koa/cors");
 const {parse} = require("qs");
 const app = new Koa();
+app.use(cors());
 
 const {CONSUMER_KEY, CONSUMER_SECRET} = process.env;
 const TWEETS_COUNT = 50;
