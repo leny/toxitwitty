@@ -18,7 +18,7 @@ const app = new Koa();
 app.use(cors());
 
 const {CONSUMER_KEY, CONSUMER_SECRET} = process.env;
-const TWEETS_COUNT = 50;
+const TWEETS_COUNT = 10;
 
 app.use(async ctx => {
     const user = new Twitter({
