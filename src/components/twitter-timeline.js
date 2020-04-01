@@ -6,15 +6,18 @@
  * started at 01/04/2020
  */
 
-import React, {useCallback} from "react";
-
+import React, {useCallback, useState} from "react";
 import TwitterNickname from "./twitter-nickname";
 
+import useTweets from "../core/use-tweets";
+
 const TwitterTimeline = () => {
-    const handleNickNameSelected = useCallback(nickname => {
-        console.warn("I have a nickname: ", nickname);
-        // TODO: call twitter API to get tweets from nickname
-    }, []);
+    const [nickname, setNickname] = useState(null);
+    const [loading, tweets] = useTweets(nickname);
+
+    console.log({loading, tweets});
+
+    const handleNickNameSelected = useCallback(setNickname, []);
 
     return (
         <div>
