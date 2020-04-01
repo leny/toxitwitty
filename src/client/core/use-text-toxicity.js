@@ -10,15 +10,15 @@ import {load} from "@tensorflow-models/toxicity";
 import {useEffect, useState} from "react";
 
 const THRESHOLD = 0.9;
+let model;
+
+load(THRESHOLD).then(mod => {
+    model = mod;
+});
 
 export default text => {
-    const [model, setModel] = useState(null);
     const [loading, setLoading] = useState(false);
     const [predictions, setPredictions] = useState([]);
-
-    useEffect(() => {
-        load(THRESHOLD).then(setModel);
-    }, []);
 
     useEffect(() => {
         if (model && text) {
