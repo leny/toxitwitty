@@ -4,6 +4,7 @@
   "description": "A small React app to play with Twitter & TensorflowJS",
   "private": true,
   "scripts": {
+    "server": "node src/server/index.js",
     "dev": "npx parcel src/client/index.html",
     "build": "npx parcel build src/client/index.html"
   },
@@ -34,8 +35,11 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "dotenv": "^8.2.0",
     "jquery": "^3.4.1",
+    "koa": "^2.11.0",
     "popper.js": "^1.16.1",
+    "qs": "^6.9.3",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
