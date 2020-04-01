@@ -1,6 +1,6 @@
 /* leny/toxitwitty
  *
- * /src/components/twitter-nickname.js - TwitterNickname component
+ * /src/client/components/twitter-nickname.js - TwitterNickname component
  *
  * coded by leny@flatLand!
  * started at 01/04/2020

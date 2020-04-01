@@ -1,6 +1,6 @@
 /* leny/toxitwitty
  *
- * /src/app.js - Client entry point
+ * /src/client/app.js - Client entry point
  *
  * coded by leny@flatLand!
  * started at 01/04/2020

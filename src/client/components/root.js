@@ -1,6 +1,6 @@
 /* leny/toxitwitty
  *
- * /src/components/root.js - Root Component
+ * /src/client/components/root.js - Root Component
  *
  * coded by leny@flatLand!
  * started at 01/04/2020

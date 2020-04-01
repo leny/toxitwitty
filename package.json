@@ -4,8 +4,8 @@
   "description": "A small React app to play with Twitter & TensorflowJS",
   "private": true,
   "scripts": {
-    "dev": "npx parcel src/index.html",
-    "build": "npx parcel build src/index.html"
+    "dev": "npx parcel src/client/index.html",
+    "build": "npx parcel build src/client/index.html"
   },
   "author": "leny <info@flatland.be>",
   "license": "ISC",

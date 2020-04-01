@@ -1,6 +1,6 @@
 /* leny/toxitwitty
  *
- * /src/components/twitter-timeline.js - TwitterTimeline Component
+ * /src/client/components/twitter-timeline.js - TwitterTimeline Component
  *
  * coded by leny@flatLand!
  * started at 01/04/2020

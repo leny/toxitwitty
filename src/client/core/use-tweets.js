@@ -1,6 +1,6 @@
 /* leny/toxitwitty
  *
- * /src/core/use-tweets.js - Custom hook to load tweets from an account
+ * /src/client/core/use-tweets.js - Custom hook to load tweets from an account
  *
  * coded by leny@flatLand!
  * started at 01/04/2020
